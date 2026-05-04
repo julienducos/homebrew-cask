@@ -1,4 +1,4 @@
-cask "doctolib" do
+cask "doctolib-pro" do
   arch arm: "-arm64", intel: ""
 
   version "2.107.0"
@@ -16,7 +16,7 @@ cask "doctolib" do
   auto_updates true
   depends_on macos: ">= :monterey"
 
-  app "Doctolib.app"
+  app "Doctolib Pro.app"
 
   zap trash: [
     "~/Library/Application Support/Doctolib",
